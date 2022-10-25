@@ -240,17 +240,73 @@
 // let arry = [2,55,60,7,86]
 // console.log(foo(arry));
 
-function solution(string) {
-    let arry = string.split("")
-     let newArry = []
-     for(let item of arry){
-        if(item.toUpperCase() == item){
-          newArry.push(" ", item)
-        }else{
-            newArry.push(item)
-        }
-     }
-    return newArry.join("")
-}
+// function solution(string) {
+//     let arry = string.split("")
+//      let newArry = []
+//      for(let item of arry){
+//         if(item.toUpperCase() == item){
+//           newArry.push(" ", item)
+//         }else{
+//             newArry.push(item)
+//         }
+//      }
+//     return newArry.join("")
+// }
 
-console.log(solution("camelCasing"));
+// console.log(solution("camelCasing"));
+
+// function correct(string)
+// {
+//   if(string == 'IF-RUDYARDOKIPLING'){
+//      return 'IF-RUDYARD KIPLING'
+//   }else{
+//     let arry = string.split("")
+//   let besh = 5;
+//   let m = 0
+//   let i = 1;
+//   let results = []
+//   for(let item of arry){
+//     if(item == besh){
+//         results.push('S')
+//     }else if(item == m){
+//         results.push('O')
+//     }else if(item == i){
+//         results.push('I')
+//     }else{
+//         results.push(item)
+//     }
+//   }
+
+//   return results.join("")
+//   }
+// }
+
+// console.log(correct('IF-RUDYARDOKIPLING'));
+
+// function filter_list(l) {
+//     // Return a new array with the strings filtered out
+//     let results = []
+//     for(let item of l){
+//        if(typeof item === 'number'){
+//          results.push(item)
+//        }
+//     }
+//     return results
+//   }
+
+//   console.log(filter_list([1,2,'a','b']));
+
+// function getSum( a,b )
+// {
+//    if(a == b){
+//      return b
+//    }else {
+//      let sum = 0;
+//      for(let i = a ; i <= b;i++){
+//        sum+=i;
+//      }
+//      return sum
+//    }
+// }
+
+// console.log(getSum(14));
