@@ -310,3 +310,24 @@
 // }
 
 // console.log(getSum(14));
+
+// https://t.me/+2QgWXj88bP0xNmM6
+
+// function oddOrEven(array) {
+//     //enter code here
+//    let sum = 0
+//    for(let item of array){
+//      sum +=item
+//    }
+//    if(sum % 2 ==0 ){
+//      return 'even'
+//    }else if(sum % 2 !==0){
+//      return 'odd'
+//    }else if(array.length == 0){
+//      return 'even'
+//    }else if(sum == 0){
+//     return 'even'
+//    }
+//  }
+//  console.log(oddOrEven([343747,607909,-989559,-976955,-712769,-845611,-397099,-932501,92425,993143,-174589]));
+ 
