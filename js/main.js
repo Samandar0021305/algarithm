@@ -214,28 +214,43 @@
 // console.log(balanced(str));
 
 
-function foo(arry = []){
-let num = [];
+// function foo(arry = []){
+// let num = [];
  
- arry.filter((element)=>{
-    element.toString().split("").filter((index)=>{
-        if(Number(index) == 7){
-            num.push(element) 
-        }else if(Number(index) != 7){
-            return "None of the items contain 7 within  them."
+//  arry.filter((element)=>{
+//     element.toString().split("").filter((index)=>{
+//         if(Number(index) == 7){
+//             num.push(element) 
+//         }else if(Number(index) != 7){
+//             return "None of the items contain 7 within  them."
+//         }
+//     })
+//  })
+
+//  for(let item of num){
+//     if(item == 7){
+//      return "Boom!"
+//     }else{
+//      return `${item} contins the number seven`
+//     }
+//  }
+
+// }
+
+// let arry = [2,55,60,7,86]
+// console.log(foo(arry));
+
+function solution(string) {
+    let arry = string.split("")
+     let newArry = []
+     for(let item of arry){
+        if(item.toUpperCase() == item){
+          newArry.push(" ", item)
+        }else{
+            newArry.push(item)
         }
-    })
- })
-
- for(let item of num){
-    if(item == 7){
-     return "Boom!"
-    }else{
-     return `${item} contins the number seven`
-    }
- }
-
+     }
+    return newArry.join("")
 }
 
-let arry = [2,55,60,7,86]
-console.log(foo(arry));
+console.log(solution("camelCasing"));
