@@ -331,3 +331,17 @@
 //  }
 //  console.log(oddOrEven([343747,607909,-989559,-976955,-712769,-845611,-397099,-932501,92425,993143,-174589]));
  
+
+// function duplicateCount(text = ''){
+//     let array = text.split("")
+//     let k = 0
+//     for(let item of array){
+//         let m = item.toLowerCase()
+//     //  if(array.includes(m) &&  ){
+
+//     //  }
+//     }
+    
+//    }
+   
+//    console.log(duplicateCount('Indivisibilities'));
